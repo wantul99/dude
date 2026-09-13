@@ -1,0 +1,6 @@
+@echo off
+echo Mematikan Node.js lama...
+taskkill /f /im node.exe >nul 2>&1
+echo Menjalankan kembali server.js...
+cd /d C:\mikrotik-js
+node server.js
